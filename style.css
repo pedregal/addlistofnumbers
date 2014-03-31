@@ -1,0 +1,96 @@
+html {
+ background-image:url('background2.png');
+ background-repeat: no-repeat;
+ background-size: contain;
+  }
+
+.header {
+  height: 30px;
+  background-color: rgba(0,0,0,1);
+  width: 100%;
+  left: 0px;
+  position: absolute;
+
+}
+
+body {
+  width:1000px;
+  margin: auto;
+  font-family: 'Metrophobic', sans-serif;
+}
+
+textarea {
+  width:480px;
+  height: 300px;
+  padding: 20px;
+  background: rgba(255,255,255,0.5);
+  border-radius:25px 0 0 25px;
+  -moz-border-radius: 25px 0 0 25px;
+  -webkit-border-radius-top-left: 25px 0  0 25px;
+}
+
+textarea:focus {
+  border: none;
+  border-radius:25px 0 0 25px;
+  -moz-border-radius: 25px 0 0 25px;
+  -webkit-border-radius-top-left: 25px 0  0 25px;
+}
+
+button {
+  background-color: rgba(255,255,255,0.9);
+  margin: 10px;
+  height: 40px;
+  width: 240px;
+  border-radius:10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius-top-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 0px;
+
+}
+
+.results {
+  width:480px;
+  height:300px;
+  float:right;
+  margin-left: 20px;
+  background: rgba(255,255,255,0.5);
+  border-radius:0 25px 25px 0;
+  -moz-border-radius:0 25px 25px 0;
+  -webkit-border-radius-top-left:0 25px 25px 0;
+  overflow: scroll;
+}
+
+#sumText, #numAddedText {
+  padding:20px;
+}
+
+.description {
+  margin-top: 250px;
+  margin-bottom: 50px;
+}
+
+h1 { font-size: 50px;
+     color: rgb(255,255,255);
+     padding-top: 50px;
+     padding-bottom: 50px;
+     margin: auto;
+      text-align: center;}
+
+h4 {margin: 10px;
+    font-weight: bold;
+    font-size: 20px; }
+
+h5 {margin:10px;
+    font-weight: bold;
+    font-size: 18px;}
+
+h6 {font-weight: bold;
+    color:white;
+    padding: 7px;
+    font-size: 14px;}
+
+p, li {margin:5px;
+      font-size: 16px;
+      line-height: 20px;}
